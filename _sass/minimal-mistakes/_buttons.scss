@@ -29,9 +29,17 @@
   }
 
   /* button colors */
-  $buttoncolors: (primary, $primary-color), (inverse, #fff), (light-outline, transparent), (success, $success-color),
-    (warning, $warning-color), (danger, $danger-color), (info, $info-color), (facebook, $facebook-color),
-    (twitter, $twitter-color), (linkedin, $linkedin-color);
+  $buttoncolors:
+  (primary, $primary-color),
+  (inverse, #fff),
+  (light-outline, transparent),
+  (success, $success-color),
+  (warning, $warning-color),
+  (danger, $danger-color),
+  (info, $info-color),
+  (facebook, $facebook-color),
+  (twitter, $twitter-color),
+  (linkedin, $linkedin-color);
 
   @each $buttoncolor, $color in $buttoncolors {
     &--#{$buttoncolor} {
@@ -86,23 +94,5 @@
   &--small {
     font-size: $type-size-7;
   }
-}
-
-#site-nav > button.search__toggle > svg {
-  -webkit-box-direction: normal;
-  font-size: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
-  color: #1d1d1f;
-  cursor: pointer;
-  box-sizing: border-box;
-  display: inline-block;
-  fill: currentColor;
-  line-height: 1;
-  position: relative;
-  top: -0.1em;
-  vertical-align: middle;
-  overflow: hidden;
-  width: 17px;
-  height: 44px;
 }
 
