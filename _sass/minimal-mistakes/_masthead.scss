@@ -49,7 +49,7 @@
   display: flex;
   -ms-flex-item-align: center;
   align-self: center;
-  font-weight: 400;
+  font-weight: normal;
 
   // z-index: 20;
 }
@@ -94,3 +94,21 @@
 }
 
 
+body > div.masthead > div {
+  font-size: 17px;
+  color: #343434;
+  line-height: 25px;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  font-family: -apple-system,BlinkMacSystemFont,"Source Sans Pro","Helvetica Neue",Arial,sans-serif;
+  max-width: 1280px;
+  padding: 0 22px 0 22px;
+  height: 44px;
+  position: relative;
+  display: block;
+}
