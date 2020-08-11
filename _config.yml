@@ -21,9 +21,9 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Vineet Verma"
 description              : "A flexible ."
-url                      : "https://vineetver.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/minimal-mistakes" # the subpath of your site, e.g. "/blog"
-repository               : "vineetver/minimal-mistakes"  # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+url                      : "https://vineetver.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : # the subpath of your site, e.g. "/blog"
+repository               : "vineetver/vineetver.github.io"  # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/image/data-teaser.jpg"   # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "Making sense of Data"  # overrides the website title displayed in the masthead, use " " for no title
