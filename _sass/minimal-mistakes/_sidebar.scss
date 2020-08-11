@@ -19,7 +19,7 @@
   @include breakpoint($large) {
     float: left;
     width: calc(#{$right-sidebar-width-narrow} - 1em);
-    opacity: 0.75;
+    opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
 
@@ -210,7 +210,7 @@
 
     &:before {
       @supports (pointer-events: none) {
-        content: '';
+        content: "";
         position: fixed;
         top: 0;
         left: 0;
@@ -345,3 +345,22 @@
   }
 }
 
+#main > div.sidebar.sticky {
+  font-size: 20px;
+  color: #343434;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial,
+    sans-serif;
+  line-height: 1.5;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  position: sticky;
+  top: 2em;
+  clear: both;
+  float: left;
+  width: calc(200px - 1em);
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+  overflow-y: auto;
+  max-height: calc(100vh - 2em - 2em);
+  text-align: center;
+}

@@ -15,7 +15,8 @@
   animation: $intro-transition;
   -webkit-animation-delay: 0.45s;
   animation-delay: 0.45s;
-  background-color: $footer-background-color;
+  background-color: #1d1d1f;
+  text-align: center;
 
   footer {
     @include clearfix;
@@ -83,4 +84,22 @@
       white-space: nowrap;
     }
   }
+}
+
+#footer > footer {
+  color: #f4f4f9;
+}
+
+#footer > footer > div.page__footer-follow {
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+  -webkit-box-direction: normal;
+  text-align: center;
+  color: #f4f4f9;
+  box-sizing: border-box;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
 }
