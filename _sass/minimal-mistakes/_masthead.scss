@@ -4,7 +4,6 @@
 
 .masthead {
   position: relative;
-  border-bottom: 1px solid $border-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.15s;
@@ -15,7 +14,6 @@
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
-    padding: 1em;
     max-width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -96,7 +94,7 @@
 
 body > div.masthead > div {
   font-size: 17px;
-  color: #343434;
+  color: #1d1d1f;
   line-height: 25px;
   -webkit-box-direction: normal;
   box-sizing: border-box;
@@ -107,8 +105,35 @@ body > div.masthead > div {
   justify-content: space-between;
   font-family: -apple-system,BlinkMacSystemFont,"Source Sans Pro","Helvetica Neue",Arial,sans-serif;
   max-width: 1280px;
-  padding: 0 22px 0 22px;
   height: 44px;
   position: relative;
   display: block;
+}
+
+#site-nav > a {
+  font-family: 'Yeseva One', cursive;
+  color: #E94B3CFF;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 19px;
+
+
+}
+
+body > div.masthead > div > div {
+  padding-left: 10px;
+  justify-content: space-between;
+
+}
+
+body > div.masthead > div > div {
+  height: 44px;
+}
+
+#site-nav {
+  height: 44px;
+}
+
+#site-nav > button.search__toggle {
+  padding-top: 5px;
 }
