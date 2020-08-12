@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Blog"
+title                    : # "Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : Vineet Verma
@@ -26,7 +26,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "vineetver/vineetver.github.io"  # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : /assets/images/madlvl.jpg   # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # /assets/images/safar.jpg # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "The Art of Computer"  # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "Vineet Verma"  # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -55,9 +55,9 @@ search                   : true   # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : "algolia" # lunr (default), algolia, google
 algolia:
-  application_id         : "501KLFBC99" # YOUR_APPLICATION_ID
+  application_id         : 501KLFBC99 # YOUR_APPLICATION_ID
   index_name             : "private_website" # YOUR_INDEX_NAME
-  search_only_api_key    : "3a3d720ddbaf36c662c813ec313c7214" # YOUR_SEARCH_ONLY_API_KEY
+  search_only_api_key    : 3a3d720ddbaf36c662c813ec313c7214 # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : false # true (default), false
 google:
   search_engine_id       : "017078506504696511685:f3fiojxmu5k"
@@ -95,7 +95,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Vineet Verma"
+  name             : # "Vineet Verma"
   avatar           : "/assets/images/profile.png"   # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Grounded and solution-oriented Computer Science graduate, passionate about data and data security."
   location         : "New Delhi, India"
@@ -281,7 +281,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
   # _pages
@@ -292,8 +292,8 @@ defaults:
       layout: single
       author_profile: false
       read_time: false
-      comments: false
-      # share: true
+      comments: true
+      share: true
       # nav: didnav
       # toc: true
       # toc_sticky: true

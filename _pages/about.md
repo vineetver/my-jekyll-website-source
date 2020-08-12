@@ -4,6 +4,8 @@ permalink: /about/
 title: "About"
 excerpt: "The art of Computer is a flexible  "
 modified: 2018-04-18T16:39:37-04:00
+share: false
+comments: false
 
 ---
 

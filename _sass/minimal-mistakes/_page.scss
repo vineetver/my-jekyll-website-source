@@ -33,7 +33,6 @@ body {
 .initial-content,
 .search-content {
   flex: 1 0 auto;
-  padding-top: 1.7rem;
 }
 
 .page {
@@ -566,4 +565,13 @@ body {
       padding-right: 0;
     }
   }
+}
+
+body > div.initial-content > div.page__hero--overlay {
+  margin: auto;
+  overflow: hidden;
+  width: 1920px;
+  height: 280px;
+  background-size: cover;
+  background-position: center;
 }

@@ -11,6 +11,7 @@
   z-index: 20;
   position: sticky;
   top: 0;
+  
 
   &__inner-wrap {
     @include clearfix;
@@ -115,10 +116,19 @@ body > div.masthead > div {
 
 #site-nav > a {
   font-family: 'Yeseva One', cursive;
-  color: #E94B3CFF;
-  font-weight: bold;
+  color: #1d1d1f;
+  font-weight: 400;
   letter-spacing: 2px;
   font-size: 19px;
+  line-height: 25px;
+  -webkit-box-direction: normal;
+  box-sizing: inline-block;
+  transition: all 0.2s ease-in-out;
+  text-align: right;
+  display: block;
+  margin: 0 auto;
+  margin-right: 5rem;
+  padding-left: 40px;
 
 
 }
@@ -142,7 +152,11 @@ body > div.masthead > div > div {
 }
 
 body > div.initial-content {
-  padding-top: 1.7rem;
+  padding-top: 0.3rem;
 }
 
+
+body > div.masthead {
+  background: #f3f3f3;
+}
 
