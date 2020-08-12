@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /about/
+permalink: /vineet/about
 title: "About"
 excerpt: "The art of Computer is a flexible  "
 modified: 2018-04-18T16:39:37-04:00
