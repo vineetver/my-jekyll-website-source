@@ -22,8 +22,8 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : Vineet Verma
 description              : # A flexible .
 url                      : "https://vineetver.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : vineetver/vineetver.github.io  # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+baseurl                  : "/home" # the subpath of your site, e.g. "/blog"
+repository               : "vineetver/vineetver.github.io"  # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : /assets/images/madlvl.jpg   # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # /assets/images/safar.jpg # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "The Art of Computer"  # overrides the website title displayed in the masthead, use " " for no title
@@ -147,6 +147,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - _posts
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -221,6 +222,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-archives
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -231,7 +233,8 @@ whitelist:
   - jekyll-include-cache
 
 
-# Archives
+
+ # Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
 #  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
@@ -242,22 +245,22 @@ whitelist:
 #  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
-  type: liquid
+  type: jerkyll-archives
   path: /categories/
 tag_archive:
-  type: liquid
+  type: jerkyll-archives
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+ #jekyll-archives:
+   # enabled:
+   #   - categories
+   #   - tags
+   # layouts:
+   #   category: archive-taxonomy
+   #   tag: archive-taxonomy
+   # permalinks:
+   #   category: /categories/:name/
+   #   tag: /tags/:name/
 
 
 # HTML Compression
@@ -281,9 +284,17 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _pages
   - scope:
       path: "_pages"
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
+      read_time: false
+      comments: false
+      # share: true
+      # nav: didnav
+      # toc: true
+      # toc_sticky: true
+
