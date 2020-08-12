@@ -11,7 +11,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
  # theme                  : "minimal-mistakes-jekyll"
-remote_theme             : "mmistakes/minimal-mistakes@4.20.1"
+remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -22,7 +22,7 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : Vineet Verma
 description              : # A flexible .
 url                      : "https://vineetver.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/home" # the subpath of your site, e.g. "/blog"
+baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "vineetver/vineetver.github.io"  # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : /assets/images/madlvl.jpg   # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # /assets/images/safar.jpg # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
