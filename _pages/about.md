@@ -7,6 +7,7 @@ modified: 2018-04-18T16:39:37-04:00
 share: false
 comments: false
 
+
 ---
 
 The Art of Computer is a flexible two-column theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or self-hosting on your own server. 
