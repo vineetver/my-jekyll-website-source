@@ -9,6 +9,8 @@
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
   z-index: 20;
+  position: sticky;
+  top: 0;
 
   &__inner-wrap {
     @include clearfix;
@@ -29,6 +31,7 @@
 
     nav {
       z-index: 10;
+      
     }
 
     a {
@@ -141,3 +144,5 @@ body > div.masthead > div > div {
 body > div.initial-content {
   padding-top: 1.7rem;
 }
+
+
