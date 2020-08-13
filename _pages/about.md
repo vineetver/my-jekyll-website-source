@@ -14,7 +14,7 @@ header:
 ---
 ## About
 
-Welcome! I'm Vineet, if i had to explain myself in three words, those words would be "creative, practical and flammable." I'm incurably enthusiastic about machines that we can't live without aka computers.
+Welcome! I'm Vineet, if i had to describe myself in three words, those words would be "creative, practical and flammable." I'm incurably enthusiastic about machines that we can't live without aka computers.
 
 Here, i drew you a picture of a unicorn:
 
