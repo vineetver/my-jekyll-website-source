@@ -33,6 +33,7 @@
          viewport height - nav height - masthead x-padding
       */
       max-height: calc(100vh - #{$nav-height} - 2em);
+
     }
   }
 
@@ -363,4 +364,8 @@
   overflow-y: auto;
   max-height: calc(100vh - 2em - 2em);
   text-align: center;
+}
+
+#about {
+  margin-top: 10px;
 }
