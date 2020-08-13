@@ -16,3 +16,42 @@ main:
   #   url: /sitemap/
   - title: "Writing"
     url: /writing
+
+
+# blog
+
+recent-posts: 
+  - title: tenetur a sapiente delectus
+    url: /
+    
+
+  - title: tenetur a sapiente delectus
+    url: /
+   
+
+all-posts:
+  - title: tdad harum quidem rerum fa
+    url: /
+   
+
+  - title: tenetur a sapiente delectus
+    url: /
+   
+# writing
+
+recent-writings: 
+  - title: voluptatibus maiores alias 
+    url: /
+    
+
+  - title: tenetur a sapiente delectus
+    url: /
+   
+
+all-writings:
+  - title: At vero eos et accusam
+    url: /
+   
+
+  - title: tdad harum quidem rerum fa
+    url: /

@@ -1,7 +1,7 @@
 ---
 
 layout: single
-permalink: /about/
+permalink: /about
 modified: 2018-04-18T16:39:37-04:00
 author_profile: false
 share: true

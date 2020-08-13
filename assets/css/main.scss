@@ -49,11 +49,13 @@ body > div.masthead {
      
 
   }
+
+  /*    recent post and hover   */
   
   #main > div.archive > div > div:nth-child(n) > article > h2 > a:hover {
     text-decoration: none;
     color: #E94B3CFF;
-    transform: scale(0.4);
+    transform: scale(1);
     transition: all 0.6s ease-in-out;
     transition-delay: 0s;
   }
@@ -84,10 +86,12 @@ body > div.masthead {
     padding-right: 10px;
 
   }
-
+  /*  sidebar  */
   #main > div.sidebar.sticky {
-    margin-top: 2rem;
+    margin-top: 3rem;
+    
   }
+
 
   #main > div.archive {
     margin-left: 10px;
@@ -97,6 +101,8 @@ body > div.masthead {
     padding-top: 2rem;
   }
 
+  /*    article title and hover   */
+
   #\32 012 > div > div:nth-child(n) > article > h2 > a:hover {
     text-decoration: none;
     color: #E94B3CFF;
@@ -105,10 +111,50 @@ body > div.masthead {
     transition-delay: 0s;
   }
 
+  /*   recent posts sidebar child title   */
 
-
-
-
+  #main > div.sidebar.sticky > nav:nth-child(n) > ul > li:nth-child(n) > a > span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #79766e;
+    height: 28px;
+  }
+  /*   recent posts sidebar child hover   */
+  #main > div.sidebar.sticky > nav:nth-child(n) > ul > li:nth-child(n) > a > span:hover {
+    color: black;
+    transition-delay: 0s;
+    transition: all 0.6s ease-in-out;
+  }
+ 
+  /*   sidebar title    */
+  #main > div.sidebar.sticky > h3:nth-child(n) {
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    color: #1d1d1f;
+  }
+  /*   sidebar title 2 padding    */
+  #main > div.sidebar.sticky > h3:nth-child(3) {
+    padding-top: 3rem;
+  }
+  /*   sidebar new posts title   */
+  #main > div.sidebar.sticky > nav:nth-child(n) > ul > li:nth-child(n) > span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #79766e;
+    height: 28px;
+  }
+  /*   sidebar new posts title hover effect   */
+  #main > div.sidebar.sticky > nav:nth-child(n) > ul > li:nth-child(n) > span:hover {
+    color: black;
+    transition-delay: 0s;
+    transform: scale(1);
+    transition: all 0.6s ease-in-out;
+  }
+  /*
+     sidebar
+     ========================================================================== */
+    
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin

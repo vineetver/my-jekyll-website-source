@@ -3,7 +3,7 @@ layout: posts
 title:  false
 share: true
 comments: true
-excerpt: "Seaborn data analysis"
+excerpt: "Seaborn data analysis, Data Wrangling, Data Science, Messy Data"
 taxonomy: technical
 
 
