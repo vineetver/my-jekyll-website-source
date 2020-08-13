@@ -8,12 +8,12 @@
 }
 
 body > div.initial-content > div.page__hero--overlay {
-    width: auto;
-    height: 280px;
+    width: 100%;
+    height: auto;
     background-size: cover;
-    background-position-y: 30%;
-
- 
+    background-position-y: 80%;
+    height: 280px;
+    
 
 }
 
@@ -32,15 +32,82 @@ body > div.masthead {
     -webkit-box-direction: normal;
     box-sizing: inline-block;
     transition: all 0.2s ease-in-out;
-    text-align: right;
+    text-align: left;
     display: block;
     margin-right: 10px;
     padding-left: 37px;
+    padding-right: 5px;
 
-  
-  
+  }
+
+  #main > div.archive > div > div:nth-child(n) > article > h2 > a {
+      color: #1d1d1f;
+      font-size: 22px;
+      font-weight: 600;
+      font-family: -apple-system, BlinkMacSystemFont, "Source Sans Pro",
+      "Helvetica Neue", Arial, sans-serif;
+     
+
   }
   
+  #main > div.archive > div > div:nth-child(n) > article > h2 > a:hover {
+    text-decoration: none;
+    color: #E94B3CFF;
+    transform: scale(0.4);
+    transition: all 0.6s ease-in-out;
+    transition-delay: 0s;
+  }
+
+  #site-nav > ul.visible-links > li:nth-child(n) {
+    text-decoration: none;
+  }
+
+  #site-nav > ul.visible-links > li:nth-child(n) > a:hover {
+    text-decoration: none;
+  }
+
+  .archive__item-title > a {  
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, "Source Sans Pro",
+      "Helvetica Neue", Arial, sans-serif;
+    color: #1d1d1f;
+
+  }
+
+
+  #main > div.sidebar.sticky > h3:nth-child(n) {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    padding-right: 10px;
+
+  }
+
+  #main > div.sidebar.sticky {
+    margin-top: 2rem;
+  }
+
+  #main > div.archive {
+    margin-left: 10px;
+  }
+
+  #main > div.archive > ul {
+    padding-top: 2rem;
+  }
+
+  #\32 012 > div > div:nth-child(n) > article > h2 > a:hover {
+    text-decoration: none;
+    color: #E94B3CFF;
+    transform: scale(1);
+    transition: all 0.6s ease-in-out;
+    transition-delay: 0s;
+  }
+
+
+
+
 
 @charset "utf-8";
 

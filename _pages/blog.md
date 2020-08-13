@@ -1,13 +1,17 @@
 ---
 
-layout: single
-permalink: /blog
-title: false
-author_profile: true
+
+layout: posts
+permalink: /blog/
+author_profile: false
 share: true
 comments: true
-title: false
+sidebar: 
+    - title: "Recent Posts"
+      nav: recent-posts
 
+    - title: "New Posts"
+      nav: new-posts
 
 
 
