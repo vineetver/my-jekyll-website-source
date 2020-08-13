@@ -1,14 +1,13 @@
 ---
+
 layout: single
 permalink: /about/
 modified: 2018-04-18T16:39:37-04:00
-author_profile: true
+author_profile: false
 share: true
 comments: false
 title: false
-header:
-  overlay_image: /assets/images/overcoming.png
-  overlay_filter: 0.5
+
 
 
 ---
