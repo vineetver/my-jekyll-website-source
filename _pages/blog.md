@@ -2,7 +2,7 @@
 
 
 layout: posts
-permalink: /blog/
+permalink: /blog
 author_profile: false
 share: true
 comments: true
@@ -10,8 +10,8 @@ sidebar:
     - title: "Recent Posts"
       nav: recent-posts
 
-    - title: "New Posts"
-      nav: new-posts
+    - title: "All Posts"
+      nav: all-posts
 
 
 
