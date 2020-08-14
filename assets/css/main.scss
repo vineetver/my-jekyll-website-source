@@ -22,8 +22,6 @@ body > div.masthead {
 }
 
 #site-nav > a {
-    font-family: -apple-system, BlinkMacSystemFont, "Source Sans Pro",
-    "Helvetica Neue", Arial, sans-serif;
     color: #1d1d1f;
     font-weight: 400;
     letter-spacing: 2px;
@@ -39,15 +37,11 @@ body > div.masthead {
     padding-right: 5px;
 
   }
-
+  /* home page posts */
   #main > div.archive > div > div:nth-child(n) > article > h2 > a {
       color: #1d1d1f;
-      font-size: 22px;
+      font-size: 27px;
       font-weight: 600;
-      font-family: -apple-system, BlinkMacSystemFont, "Source Sans Pro",
-      "Helvetica Neue", Arial, sans-serif;
-     
-
   }
 
   /*    recent post and hover   */
@@ -68,12 +62,11 @@ body > div.masthead {
     text-decoration: none;
   }
 
+  /* article posts and work posts */
   .archive__item-title > a {  
     text-decoration: none;
-    font-size: 22px;
+    font-size: 27px;
     font-weight: 600;
-    font-family: -apple-system, BlinkMacSystemFont, "Source Sans Pro",
-      "Helvetica Neue", Arial, sans-serif;
     color: #1d1d1f;
 
   }
@@ -88,7 +81,7 @@ body > div.masthead {
   }
   /*  sidebar  */
   #main > div.sidebar.sticky {
-    margin-top: 3rem;
+    margin-top: 2.2rem;
     
   }
 
@@ -155,6 +148,40 @@ body > div.masthead {
      sidebar
      ========================================================================== */
     
+  /* Archive font change */
+
+  
+  #main > div.archive > h1:nth-child(n) {
+    font-family: 'DM Serif Display', Georgia, serif;
+    letter-spacing: -0.648px;
+    margin-bottom: 1.2rem;
+    
+  }
+
+  #main > div.archive > h2:nth-child(n) {
+    font-family: 'DM Serif Display', Georgia, serif;
+    font-size: 43.4px;
+    letter-spacing: -0.648px;
+    margin-bottom: 1.2rem;
+
+
+  }
+
+  #main > div.archive > h3:nth-child(n) {
+    font-family: 'DM Serif Display', Georgia, serif;
+    letter-spacing: -0.648px;
+
+  }
+
+  #main > div.archive > h4:nth-child(n) {
+    font-family: 'DM Serif Display', Georgia, serif;
+    letter-spacing: -0.648px;
+
+    
+  }
+
+
+
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin

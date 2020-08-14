@@ -1,17 +1,17 @@
 ---
 
-
-layout: posts
-permalink: /blog
+title: ""
+layout: single
+permalink: /Work
 author_profile: false
-share: true
-comments: true
+share: false
+comments: false
 sidebar: 
-    - title: "Recent Posts"
-      nav: recent-posts
+    - title: "Recent Writings"
+      nav: recent-writings
 
-    - title: "All Posts"
-      nav: all-posts
+    - title: "All Writings"
+      nav: all-writings
 
 
 

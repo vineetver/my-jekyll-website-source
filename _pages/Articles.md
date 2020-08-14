@@ -1,17 +1,18 @@
 ---
 
 
-layout: single
-permalink: /writing
+layout: posts
+permalink: /Articles
 author_profile: false
-share: true
-comments: true
+share: false
+comments: false
+entries_layout: grid
 sidebar: 
-    - title: "Recent Writings"
-      nav: recent-writings
+    - title: "Recent Posts"
+      nav: recent-posts
 
-    - title: "All Writings"
-      nav: all-writings
+    - title: "All Posts"
+      nav: all-posts
 
 
 
