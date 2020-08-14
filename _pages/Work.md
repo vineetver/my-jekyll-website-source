@@ -1,14 +1,16 @@
 ---
 
 title: ""
-layout: single
+layout: posts
 permalink: /Work
 author_profile: false
 share: false
 comments: false
+entries_layout: grid
 sidebar: 
     - title: "Browse my work" 
       nav: recent-writings
+
 
 ---
 

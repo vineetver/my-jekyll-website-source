@@ -44,16 +44,7 @@ body > div.masthead {
       font-weight: 600;
   }
 
-  /*    recent post and hover   */
   
-  #main > div.archive > div > div:nth-child(n) > article > h2 > a:hover {
-    text-decoration: none;
-    color: #E94B3CFF;
-    transform: scale(1);
-    transition: all 0.6s ease-in-out;
-    transition-delay: 0s;
-  }
-
   #site-nav > ul.visible-links > li:nth-child(n) {
     text-decoration: none;
   }
@@ -86,37 +77,24 @@ body > div.masthead {
   }
 
 
-  #main > div.archive {
-    margin-left: 10px;
-  }
-
   #main > div.archive > ul {
     padding-top: 2rem;
   }
 
-  /*    article title and hover   */
-
-  #\32 012 > div > div:nth-child(n) > article > h2 > a:hover {
-    text-decoration: none;
-    color: #E94B3CFF;
-    transform: scale(1);
-    transition: all 0.6s ease-in-out;
-    transition-delay: 0s;
-  }
 
   /*   recent posts sidebar child title   */
 
   #main > div.sidebar.sticky > nav:nth-child(n) > ul > li:nth-child(n) > a > span {
     font-size: 14px;
     font-weight: 400;
-    color: #79766e;
+    color: #5a5851;
     height: 28px;
   }
   /*   recent posts sidebar child hover   */
   #main > div.sidebar.sticky > nav:nth-child(n) > ul > li:nth-child(n) > a > span:hover {
     color: black;
     transition-delay: 0s;
-    transition: all 0.6s ease-in-out;
+    transition: all 0.2s ease-in;
   }
  
   /*   sidebar title    */
@@ -141,8 +119,7 @@ body > div.masthead {
   #main > div.sidebar.sticky > nav:nth-child(n) > ul > li:nth-child(n) > span:hover {
     color: black;
     transition-delay: 0s;
-    transform: scale(1);
-    transition: all 0.6s ease-in-out;
+    transition: all 0.2s ease-in;
   }
   /*
      sidebar
@@ -193,7 +170,47 @@ body > div.masthead {
     
   }
 
-  /* archive teaser images */
+  #main > div.sidebar.sticky > nav:nth-child(n) > ul > li:nth-child(n) > ul > li:nth-child(1) {
+    padding-top: 2px;
+  }
+  #main > div.sidebar.sticky > nav:nth-child(n) > ul > li:nth-child(n) > ul > li:nth-child(n+2) {
+      padding: 15px;
+  }
+
+  /* transitions for articles and work */
+  #main > div.sidebar.sticky > nav:nth-child(n) > ul > li:nth-child(n) > ul > li:nth-child(n):hover {
+    color: #c62828;
+    transition-delay: 0s;
+    transition: all 0.2s ease-in;
+  }
+  
+  #main > div.archive > div.list__item > article > h2:hover {
+    color: #c62828;
+    transition-delay: 0s;
+    transition: all 0ms ease-in;
+  }
+
+  #main > div.archive > div.list__item > article > h2 > a:hover {
+    border-bottom: 1px solid #1d1d1f;
+    transition-delay: 0s;
+    transition: all 0.6s ease-in;
+  }
+
+  #\32 019 > div > div > article > h2 > a:hover {
+    border-bottom: 1px solid #1d1d1f;
+    transition-delay: 0s;
+    transition: all 0.6s ease-in;
+  }
+
+  /*    recent post and hover   */
+  
+  #main > div.archive > div > div:nth-child(n) > article > h2 > a:hover {
+    border-bottom: 1px solid #1d1d1f;
+    transition-delay: 0s;
+    transition: all 0.6s ease-in;
+  }
+
+  
 
 @charset "utf-8";
 

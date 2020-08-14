@@ -97,7 +97,7 @@ analytics:
 author:
   name             : # "Vineet Verma"
   avatar           : "/assets/images/profile.png"   # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Grounded and solution-oriented Computer Science graduate, passionate about data and data security."
+  bio              : "Solution-oriented Computer Science graduate, passionate about data and data security."
   location         : "New Delhi, India"
   email            : Vineetver@hotmail.com
   links:
@@ -271,6 +271,10 @@ compress_html:
   ignore:
     envs: development
 
+collections:
+  articles: 
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -298,4 +302,15 @@ defaults:
       # nav: didnav
       # toc: true
       # toc_sticky: true
+  #_articles
+  - scope: 
+      path: ""
+      type: articles
+    values: 
+      layout: single
+      author_profile: flase
+      read_time: true
+      share: true
+      comments: true
+      related: true
 
