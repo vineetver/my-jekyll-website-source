@@ -1,7 +1,7 @@
 ---
 
 
-layout: posts
+layout: archive
 permalink: /Articles
 author_profile: false
 share: false
@@ -19,6 +19,10 @@ sidebar:
 ---
 
 
+
+{% for post in site.articles reversed %}
+  {% include archive-single.html %}
+{% endfor %}
 
 {% if page.comments %}
 <div id="disqus_thread"></div>

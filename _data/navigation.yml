@@ -18,18 +18,24 @@ main:
     url: /Work
  # - title: "Splash"
  #  url: /splash-page
+  
 
-
-# blog
+# ARTICLE
 
 recent-posts: 
-  - title: tenetur a sapiente delectus
-    url: /
-    
+  - title: Technology
+    children:
+      - title: "How does coronavirus compare with the flu?"
+        url: /Articles/covid-new
 
-  - title: tenetur a sapiente delectus
-    url: /
-   
+      - title: "Wait for my new article"
+
+
+  - title: Health
+    children:
+      - title: ""
+        url: /
+
 
 all-posts:
   - title: tdad harum quidem rerum fa
@@ -39,15 +45,15 @@ all-posts:
   - title: tenetur a sapiente delectus
     url: /
    
-# writing
+# WORK
 
 recent-writings: 
-  - title: voluptatibus maiores alias 
-    url: /
-    
+  - title: 2019
+    url: /Work#2019
+      
 
-  - title: tenetur a sapiente delectus
-    url: /
+  - title: 2018
+    url: /Work#2018
    
 
 all-writings:

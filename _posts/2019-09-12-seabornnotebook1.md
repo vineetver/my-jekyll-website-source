@@ -1,9 +1,10 @@
 ---
 layout: posts
-title:  "Tumor Diagnosis Data Analysis"
+title:  "Tumor diagnosis (data analysis)"
 share: true
 comments: true
 author_profile: false
+permalink: /Work/seabornnotebook1
 header:
   teaser: /assets/images/datateaser.jpg
   og_image: /assets/images/datateaser.jpg

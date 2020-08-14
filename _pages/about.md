@@ -3,7 +3,7 @@
 layout: single
 permalink: /about
 modified: 2018-04-18T16:39:37-04:00
-author_profile: false
+author_profile: true
 share: true
 comments: false
 title: false
