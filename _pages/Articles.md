@@ -8,10 +8,10 @@ share: false
 comments: false
 entries_layout: grid
 sidebar: 
-    - title: "Recent Posts"
+    - title: "Featured Articles"
       nav: recent-posts
 
-    - title: "All Posts"
+    - title: "All Articles"
       nav: all-posts
 
 

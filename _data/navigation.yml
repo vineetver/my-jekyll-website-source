@@ -16,6 +16,8 @@ main:
   #   url: /sitemap/
   - title: "Work"
     url: /Work
+ # - title: "Splash"
+ #  url: /splash-page
 
 
 # blog

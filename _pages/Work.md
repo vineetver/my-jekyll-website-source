@@ -7,13 +7,8 @@ author_profile: false
 share: false
 comments: false
 sidebar: 
-    - title: "Recent Writings"
+    - title: "Browse my work" 
       nav: recent-writings
-
-    - title: "All Writings"
-      nav: all-writings
-
-
 
 ---
 

@@ -5,8 +5,8 @@ share: true
 comments: true
 author_profile: false
 header:
-  teaser: /assets/images/datateaser.jpg
-  og_image: /assets/images/datateaser.jpg
+  teaser: /assets/images/javascript.jpg
+  og_image: /assets/images/javascript.jpg
 excerpt: "Data analysis, visualization using seaborn"
 
 
