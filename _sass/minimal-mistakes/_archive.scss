@@ -17,6 +17,9 @@
     padding-right: $right-sidebar-width;
   }
 }
+#main > div.archive {
+  padding-right: 250px;
+}
 
 .archive__item {
   position: relative;
@@ -160,6 +163,7 @@
 
   @include breakpoint($small) {
     float: left;
+    position: relative;
     width: span(5 of 10);
 
     &:nth-child(2n + 1) {
@@ -176,7 +180,7 @@
   @include breakpoint($medium) {
     margin-left: 0; /* override margin*/
     margin-right: 0; /* override margin*/
-    width: span(3 of 12);
+    width: span(4 of 12);
 
     &:nth-child(2n + 1) {
       clear: none;
@@ -231,6 +235,7 @@
     }
   }
 }
+
 
 /*
    Features
