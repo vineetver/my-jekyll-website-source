@@ -6,16 +6,16 @@ main:
   #  url: /
   - title: "About"
     url: /about
-  - title: "Blog"
-    url: /blog
+  - title: "Articles"
+    url: /Articles
 # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
-  - title: "Writing"
-    url: /writing
+  - title: "Work"
+    url: /Work
 
 
 # blog

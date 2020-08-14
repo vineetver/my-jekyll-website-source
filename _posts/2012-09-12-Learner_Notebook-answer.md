@@ -1,9 +1,13 @@
 ---
 layout: posts
-title:  false
+title:  "Tumor Diagnosis Data Analysis"
 share: true
 comments: true
-excerpt: "Seaborn data analysis, Data Wrangling, Data Science, Messy Data"
+author_profile: false
+related: true
+header:
+  teaser: /assets/images/python-logo.png
+excerpt: "Data analysis, visualization using seaborn"
 taxonomy: technical
 
 
@@ -14,7 +18,8 @@ taxonomy: technical
 
 
 
-<h2 align=center>Tumor Diagnosis (Part 1): Exploratory Data Analysis</h2>
+<h2 align=center>Tumor Diagnosis Data Analysis</h2>
+
 <img src="https://storage.googleapis.com/kaggle-datasets-images/180/384/3da2510581f9d3b902307ff8d06fe327/dataset-cover.jpg">
 
 ### About the Dataset
@@ -244,11 +249,11 @@ data.head(5)
 <p>5 rows × 33 columns</p>
 </div>
 
-# ID has to be either dropped or put as index
+### ID has to be either dropped or put as index
 
-# Diagnosis column: is my target that i want to predict
+### Diagnosis column: is my target that i want to predict
 
-# Unnamed: 32 column has to be dropped
+### Unnamed: 32 column has to be dropped
 
 ```python
 col = data.columns
@@ -1015,3 +1020,28 @@ sns.heatmap(x.corr(),
 ```
 
 ![png](/assets/images/notebook/output_50_0.png)
+
+{% if page.comments %}
+<div id="disqus_thread"></div>
+<script>
+
+/**
+
+* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: <https://disqus.com/admin/universalcode/#configuration-variables*/>
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://EXAMPLE.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+{% endif %}
