@@ -118,7 +118,7 @@ author:
       url: "https://github.com/vineetver"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-     # url: "https://instagram.com"
+      url: "https://instagram.com/babybrowngoyard"
 
 # Site Footer
 footer:
@@ -140,7 +140,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://instagram.com/babybrowngoyard"
 
 
 # Reading Files
