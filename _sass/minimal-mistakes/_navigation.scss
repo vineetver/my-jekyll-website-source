@@ -229,7 +229,7 @@
 
     a {
       position: relative;
-
+/*
       &:before {
         content: "";
         position: absolute;
@@ -242,17 +242,17 @@
         transition: $global-transition;
         -webkit-transform: scaleX(0) translate3d(0, 0, 0);
         transform: scaleX(0) translate3d(0, 0, 0); // hide
-      }
+      } */
 
-      &:hover:before {
-        /* -webkit-transform: scaleX(1);
+  /*    &:hover:before {
+         -webkit-transform: scaleX(1);
         -ms-transform: scaleX(1);
-        transform: scaleX(1); // reveal */
+        transform: scaleX(1); // reveal 
         -webkit-transform: scaleX(1);
         -ms-transform: scaleX(1);
         transform: scaleX(1); // reveal
 
-      }
+      } */
     }
 
   
@@ -321,6 +321,8 @@
     }
   }
 }
+
+
 
 .no-js {
   .greedy-nav {
