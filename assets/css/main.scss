@@ -154,6 +154,18 @@ body > div.masthead {
   /*
      sidebar
      ========================================================================== */
+
+  #main > div.sidebar.sticky > div > div.author__urls-wrapper > ul > li:nth-child(1) > i {
+    color: #8BC34A;
+
+  }
+
+  #main > div.sidebar.sticky > div > div.author__urls-wrapper > ul > li:nth-child(4) > i {
+    color: #333333;
+  }
+  
+
+  
     
 @charset "utf-8";
 
