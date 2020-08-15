@@ -11,6 +11,7 @@
   z-index: 20;
   position: sticky;
   top: 0;
+  background-color: $background-color;
   
 
   &__inner-wrap {
@@ -98,7 +99,6 @@
 
 body > div.masthead > div {
   font-size: 17px;
-  color: #1d1d1f;
   line-height: 25px;
   -webkit-box-direction: normal;
   box-sizing: border-box;
@@ -107,7 +107,6 @@ body > div.masthead > div {
   margin-right: auto;
   -webkit-box-pack: justify;
   justify-content: space-between;
-  font-family: -apple-system,BlinkMacSystemFont,"Source Sans Pro","Helvetica Neue",Arial,sans-serif;
   max-width: 1280px;
   height: 44px;
   position: relative;
@@ -138,7 +137,4 @@ body > div.initial-content {
 }
 
 
-body > div.masthead {
-  background: #f3f3f3;
-}
 

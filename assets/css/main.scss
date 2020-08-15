@@ -38,7 +38,7 @@ body > div.masthead {
   }
   /* home page posts */
   #main > div.archive > div > div:nth-child(n) > article > h2 > a {
-      color: #1d1d1f;
+      color: #212121;
       font-size: 27px;
       font-weight: 600;
   }
@@ -57,7 +57,7 @@ body > div.masthead {
     text-decoration: none;
     font-size: 27px;
     font-weight: 600;
-    color: #1d1d1f;
+    color: #212121;
 
   }
 
@@ -101,7 +101,7 @@ body > div.masthead {
     text-align: center;
     padding-left: 0;
     padding-right: 0;
-    color: #1d1d1f;
+    color: #212121;
   }
   /*   sidebar title 2 padding    */
   #main > div.sidebar.sticky > h3:nth-child(3) {
@@ -111,7 +111,7 @@ body > div.masthead {
   #main > div.sidebar.sticky > nav:nth-child(n) > ul > li:nth-child(n) > span {
     font-size: 14px;
     font-weight: 400;
-    color: #79766e;
+    color: #6d6d6d;
     height: 28px;
   }
   /*   sidebar new posts title hover effect   */
@@ -190,7 +190,7 @@ body > div.masthead {
   }
 
   #main > div.archive > div.list__item > article > h2 > a:hover {
-    border-bottom: 1px solid #1d1d1f;
+    border-bottom: 1px solid #212121;
     transition-delay: 0s;
     transition: all 0.6s ease-in;
   }
@@ -203,7 +203,7 @@ body > div.masthead {
   }
 
   #\32 019 > div > div > article > h2 > a:hover {
-    border-bottom: 1px solid #1d1d1f;
+    border-bottom: 1px solid #212121;
     transition-delay: 0s;
     transition: all 0.6s ease-in;
   }
@@ -211,7 +211,7 @@ body > div.masthead {
   /*    recent post and hover   */
   
   #main > div.archive > div > div:nth-child(n) > article > h2 > a:hover {
-    border-bottom: 1px solid #1d1d1f;
+    border-bottom: 1px solid #212121;
     transition-delay: 0s;
     transition: all 0.6s ease-in;
   }
@@ -221,7 +221,7 @@ body > div.masthead {
   }
 
   #site-nav > ul.visible-links > li:nth-child(n) > a:hover {
-    color: #757575;
+    color: #6d6d6d;
     transition-delay: 0s;
   }
 
@@ -229,7 +229,7 @@ body > div.masthead {
     color: #212121;
   }
   #site-nav > button.search__toggle:hover {
-    color: #757575;
+    color: #6d6d6d;
     transition-delay: 0s;
   }
 
@@ -238,7 +238,7 @@ body > div.masthead {
   }
 
   #site-nav > a:hover {
-    color: #757575;
+    color: #6d6d6d;
     transition-delay: 0s;
   }
 
@@ -246,8 +246,10 @@ body > div.masthead {
     margin-bottom: 2.2rem;
   }
 
-
-
+  /* related posts padding*/
+  #\32 019 > div > div > article > h2 {
+    padding-top: 12px;
+  }
 
 @charset "utf-8";
 

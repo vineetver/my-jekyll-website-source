@@ -10,7 +10,6 @@ header:
   og_image: /assets/images/posts/work/seaborn.jpg
 excerpt: "Data analysis, visualization using seaborn"
 
-
 ---
 
 
