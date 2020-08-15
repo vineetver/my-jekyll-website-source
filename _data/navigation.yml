@@ -25,17 +25,21 @@ main:
 recent-posts: 
   - title: Technology
     children:
-      - title: "How does coronavirus compare with the flu?"
-        url: /Articles/covid-new
+      - title: ""
+        url: /
 
-      - title: "Wait for my new article"
+    #  - title: "Wait for my new article"
 
 
   - title: Health
     children:
+      - title: "How does coronavirus compare with the flu?"
+        url: /Articles/covid-new
+  
+  - title: Lifestyle
+    children:
       - title: ""
         url: /
-
 
 all-posts:
   - title: tdad harum quidem rerum fa

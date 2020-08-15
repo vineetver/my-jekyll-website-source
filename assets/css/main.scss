@@ -195,6 +195,13 @@ body > div.masthead {
     transition: all 0.6s ease-in;
   }
 
+  #main > div.archive > div.list__item > article > h2 {
+    margin-top: 26px;
+  }
+  #main > div.archive > div > div > article > h2 {
+    margin-top: 26px;
+  }
+
   #\32 019 > div > div > article > h2 > a:hover {
     border-bottom: 1px solid #1d1d1f;
     transition-delay: 0s;
@@ -235,7 +242,9 @@ body > div.masthead {
     transition-delay: 0s;
   }
 
-
+  .page__meta {
+    margin-bottom: 2.2rem;
+  }
 
 
 
