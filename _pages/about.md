@@ -11,6 +11,9 @@ title: false
 
 
 ---
+
+
+
 ## About
 
 Welcome! I'm Vineet, if i had to describe myself in three words, those words would be "creative, practical and flammable." I'm incurably enthusiastic about machines that we can't live without aka computers.
@@ -33,3 +36,7 @@ The theme includes responsive layouts that look great on mobile and desktop brow
 - Optional header images, sidebars, table of contents, galleries, related posts, breadcrumb links, and more.
 - Optional comments ([Disqus](https://disqus.com/), [Facebook](https://developers.facebook.com/docs/plugins/comments), Google+, and custom)
 - Optional analytics ([Google Analytics](https://www.google.com/analytics/) and custom)
+
+
+
+
