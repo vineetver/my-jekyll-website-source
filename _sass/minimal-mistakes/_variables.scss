@@ -70,9 +70,9 @@ $lighter-gray: mix(#fff, $gray, 90%) !default;
 
 $background-color: #fafafa !default;
 $code-background-color: #fafafa !default;
-$code-background-color-dark: #eeeeee !default;
+$code-background-color-dark: $light-gray !default;
 $text-color: #212121 !default;
-$muted-text-color: #fafafa !default;
+$muted-text-color: #6d6d6d !default;
 $border-color: $lighter-gray !default;
 $form-background-color: $lighter-gray !default;
 $footer-background-color: #212121 !default;

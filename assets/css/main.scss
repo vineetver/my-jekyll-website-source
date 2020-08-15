@@ -38,7 +38,6 @@ body > div.masthead {
   }
   /* home page posts */
   #main > div.archive > div > div:nth-child(n) > article > h2 > a {
-      color: #212121;
       font-size: 27px;
       font-weight: 600;
   }
@@ -57,7 +56,6 @@ body > div.masthead {
     text-decoration: none;
     font-size: 27px;
     font-weight: 600;
-    color: #212121;
 
   }
 
@@ -101,7 +99,6 @@ body > div.masthead {
     text-align: center;
     padding-left: 0;
     padding-right: 0;
-    color: #212121;
   }
   /*   sidebar title 2 padding    */
   #main > div.sidebar.sticky > h3:nth-child(3) {
@@ -129,10 +126,6 @@ body > div.masthead {
 
   }
 
-  #main > div.sidebar.sticky > div > div.author__urls-wrapper > ul > li:nth-child(4) > i {
-    color: #333333;
-  }
-  
 
 
   
@@ -217,7 +210,6 @@ body > div.masthead {
   }
 
   #site-nav > ul.visible-links > li:nth-child(n) > a {
-    color: #212121;
   }
 
   #site-nav > ul.visible-links > li:nth-child(n) > a:hover {
@@ -226,7 +218,6 @@ body > div.masthead {
   }
 
   #site-nav > button.search__toggle {
-    color: #212121;
   }
   #site-nav > button.search__toggle:hover {
     color: #6d6d6d;
@@ -234,7 +225,6 @@ body > div.masthead {
   }
 
   #site-nav > a {
-    color: #212121;
   }
 
   #site-nav > a:hover {
@@ -250,8 +240,12 @@ body > div.masthead {
   #\32 019 > div > div > article > h2 {
     padding-top: 12px;
   }
-
-@charset "utf-8";
+ 
+  #main > div.sidebar > div > div.author__content > div > p {
+    margin-top: 0;
+  }
+ 
+  @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
