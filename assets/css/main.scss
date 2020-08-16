@@ -41,7 +41,7 @@ body > div.masthead {
       font-size: 27px;
       font-weight: 600;
   }
-
+  
   
   #site-nav > ul.visible-links > li:nth-child(n) {
     text-decoration: none;
@@ -173,6 +173,7 @@ body > div.masthead {
   /* transitions for articles and work */
   #main > div.sidebar.sticky > nav:nth-child(n) > ul > li:nth-child(n) > ul > li:nth-child(n):hover {
     color: #c62828;
+    text-decoration: underline;
     transition-delay: 0s;
     transition: all 0.2s ease-in;
   }
@@ -184,7 +185,7 @@ body > div.masthead {
   }
 
   #main > div.archive > div.list__item > article > h2 > a:hover {
-    border-bottom: 1px solid #212121;
+    text-decoration: underline;
     transition-delay: 0s;
     transition: all 0.6s ease-in;
   }
@@ -197,7 +198,7 @@ body > div.masthead {
   }
 
   #\32 019 > div > div > article > h2 > a:hover {
-    border-bottom: 1px solid #212121;
+    text-decoration: underline;
     transition-delay: 0s;
     transition: all 0.6s ease-in;
   }
@@ -211,9 +212,9 @@ body > div.masthead {
   /*    recent post and hover   */
   
   #main > div.archive > div > div:nth-child(n) > article > h2 > a:hover {
-    border-bottom: 1px solid #212121;
-    transition-delay: 0s;
     transition: all 0.6s ease-in;
+    transition-delay: 0.3s;
+    text-decoration: underline;
   }
 
 
