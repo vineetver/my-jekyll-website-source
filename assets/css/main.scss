@@ -22,7 +22,6 @@ body > div.masthead {
 }
 
 #site-nav > a {
-    color: #1d1d1f;
     font-weight: 400;
     letter-spacing: 2px;
     font-size: 19px;
@@ -39,7 +38,6 @@ body > div.masthead {
   }
   /* home page posts */
   #main > div.archive > div > div:nth-child(n) > article > h2 > a {
-      color: #1d1d1f;
       font-size: 27px;
       font-weight: 600;
   }
@@ -58,7 +56,6 @@ body > div.masthead {
     text-decoration: none;
     font-size: 27px;
     font-weight: 600;
-    color: #1d1d1f;
 
   }
 
@@ -87,7 +84,7 @@ body > div.masthead {
   #main > div.sidebar.sticky > nav:nth-child(n) > ul > li:nth-child(n) > a > span {
     font-size: 14px;
     font-weight: 400;
-    color: #5a5851;
+    color: #6d6d6d;
     height: 28px;
   }
   /*   recent posts sidebar child hover   */
@@ -102,7 +99,6 @@ body > div.masthead {
     text-align: center;
     padding-left: 0;
     padding-right: 0;
-    color: #1d1d1f;
   }
   /*   sidebar title 2 padding    */
   #main > div.sidebar.sticky > h3:nth-child(3) {
@@ -112,7 +108,7 @@ body > div.masthead {
   #main > div.sidebar.sticky > nav:nth-child(n) > ul > li:nth-child(n) > span {
     font-size: 14px;
     font-weight: 400;
-    color: #79766e;
+    color: #6d6d6d;
     height: 28px;
   }
   /*   sidebar new posts title hover effect   */
@@ -130,10 +126,6 @@ body > div.masthead {
 
   }
 
-  #main > div.sidebar.sticky > div > div.author__urls-wrapper > ul > li:nth-child(4) > i {
-    color: #333333;
-  }
-  
 
 
   
@@ -191,13 +183,20 @@ body > div.masthead {
   }
 
   #main > div.archive > div.list__item > article > h2 > a:hover {
-    border-bottom: 1px solid #1d1d1f;
+    border-bottom: 1px solid #212121;
     transition-delay: 0s;
     transition: all 0.6s ease-in;
   }
 
+  #main > div.archive > div.list__item > article > h2 {
+    margin-top: 26px;
+  }
+  #main > div.archive > div > div > article > h2 {
+    margin-top: 26px;
+  }
+
   #\32 019 > div > div > article > h2 > a:hover {
-    border-bottom: 1px solid #1d1d1f;
+    border-bottom: 1px solid #212121;
     transition-delay: 0s;
     transition: all 0.6s ease-in;
   }
@@ -205,14 +204,49 @@ body > div.masthead {
   /*    recent post and hover   */
   
   #main > div.archive > div > div:nth-child(n) > article > h2 > a:hover {
-    border-bottom: 1px solid #1d1d1f;
+    border-bottom: 1px solid #212121;
     transition-delay: 0s;
     transition: all 0.6s ease-in;
   }
 
-  /* bug fixes yess */
 
+
+  #site-nav > ul.visible-links > li:nth-child(n) > a:hover {
+    color: #6d6d6d;
+    transition-delay: 0s;
+  }
+
+  #site-nav > button.search__toggle {
+  }
+  #site-nav > button.search__toggle:hover {
+    color: #6d6d6d;
+    transition-delay: 0s;
+  }
+
+  #site-nav > a {
+  }
+
+  #site-nav > a:hover {
+    color: #6d6d6d;
+    transition-delay: 0s;
+  }
+
+  .page__meta {
+    margin-bottom: 2.2rem;
+  }
+
+  /* related posts padding*/
+  #\32 019 > div > div > article > h2 {
+    padding-top: 12px;
+  }
+ 
+  #main > div.sidebar > div > div.author__content > div > p {
+    margin-top: 0;
+  }
+ /* dark mode please*/
+
+
+ 
 @charset "utf-8";
-
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials

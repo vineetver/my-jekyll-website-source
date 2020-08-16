@@ -11,9 +11,6 @@ sidebar:
     - title: "Featured Articles"
       nav: recent-posts
 
-    - title: "All Articles"
-      nav: all-posts
-
 
 
 ---
