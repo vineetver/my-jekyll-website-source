@@ -50,6 +50,7 @@ body > div.masthead {
   #site-nav > ul.visible-links > li:nth-child(n) > a:hover {
     text-decoration: none;
   }
+  
 
   /* article posts and work posts */
   .archive__item-title > a {  
@@ -198,6 +199,11 @@ body > div.masthead {
 
   #\32 019 > div > div > article > h2 > a:hover {
     text-decoration: underline;
+    transition-delay: 0s;
+    transition: all 0.6s ease-in;
+  }
+ 
+  #main > div.archive > div > div > article > h2 > a:hover {
     transition-delay: 0s;
     transition: all 0.6s ease-in;
   }

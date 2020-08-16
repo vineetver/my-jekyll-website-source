@@ -7,19 +7,14 @@ author_profile: false
 permalink: /Work/seabornnotebook1
 header:
   teaser: /assets/images/posts/work/seaborn.jpg
-  og_image: /assets/images/posts/work/seaborn.jpg
+  og_image: /assets/images/posts/work/seaborn.jpge
 excerpt: "Data analysis, visualization using seaborn"
 related: true
 
 ---
 
 
-
-
-
-
-<h2 align=center>Tumor Diagnosis Data Analysis</h2>
-
+<h2 align=center>Tumor Diagnosis (Exploratory Data Analysis)</h2>
 <img src="https://storage.googleapis.com/kaggle-datasets-images/180/384/3da2510581f9d3b902307ff8d06fe327/dataset-cover.jpg">
 
 ### About the Dataset
@@ -57,9 +52,9 @@ Class distribution: 357 benign, 212 malignant
 ### Loading Libraries and Data
 
 ```python
-import numpy as np # linear algebra
-import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
-import seaborn as sns  # data visualization library  
+import numpy as np
+import pandas as pd
+import seaborn as sns
 import matplotlib.pyplot as plt
 import time
 ```
@@ -73,10 +68,6 @@ data = pd.read_csv('data/data.csv')
 ---
 
 ### Separate Target from Features
-
-***
-Note: If you are starting the notebook from this task, you can run cells from all the previous tasks in the kernel by going to the top menu and Kernel > Restart and Run All
-***
 
 ```python
 data.head(5)
@@ -249,11 +240,11 @@ data.head(5)
 <p>5 rows × 33 columns</p>
 </div>
 
-### ID has to be either dropped or put as index
+# ID has to be either dropped or put as index
 
-### Diagnosis column: is my target that i want to predict
+# Diagnosis column: is my target that i want to predict
 
-### Unnamed: 32 column has to be dropped
+# Unnamed: 32 column has to be dropped
 
 ```python
 col = data.columns
@@ -276,9 +267,7 @@ y = data.diagnosis
 
 drop_cols = ['id', 'diagnosis', 'Unnamed: 32']
 
-x = data.drop(drop_cols, axis=1)
-#axis=1 because dropping columns
-#if dropping rows then axis=0
+x = data.drop(drop_cols, axis=1) # axis 1 for columns
 
 x.head()
 ```
@@ -452,10 +441,6 @@ x.head()
 
 ### Plot Diagnosis Distributions
 
-***
-Note: If you are starting the notebook from this task, you can run cells from all the previous tasks in the kernel by going to the top menu and Kernel > Restart and Run All
-***
-
 ```python
 ax = sns.countplot(y, label = "Count")
 B, M = y.value_counts()
@@ -466,7 +451,7 @@ print('Number of Malignant tumors: ', M)
     Number of Benign tumors:  357
     Number of Malignant tumors:  212
 
-![png](/assets/images/notebook/output_18_1.png)
+![png](/assets/images/notebook/18_1.png)
 
 ```python
 x.describe()
@@ -719,10 +704,6 @@ x.describe()
 
 ### Visualizing Standardized Data with Seaborn
 
-***
-Note: If you are starting the notebook from this task, you can run cells from all the previous tasks in the kernel by going to the top menu and Kernel > Restart and Run All
-***
-
 ```python
 data = x
 
@@ -730,7 +711,6 @@ data_std = (data - data.mean()) / data.std()
 
 data = pd.concat([y, data_std.iloc[:, 0:10]], axis=1)
 #all rows, but columns 0 to 9 so it doesn't become cluttered
-#axis = 1 because columns
 
 #If we try to get plot now, we'll get an error bec. data is in long format
 # we need to unpivot it to wide format, we can use melt method
@@ -755,17 +735,13 @@ plt.xticks(rotation=45);
 
 ```
 
-![png](/assets/images/notebook/output_24_0.png)
+![png](/assets/images/notebook/24_0.png)
 
 When we check the above diagram, for example:
 
 Texture_Mean, it's median is far for B and M, so would indicate it as good feature for differentiation. However, if you look at the last one, the median doesn't look like it is well separated, so might mean it will not give good prediction.
 
 ### Violin Plots and Box Plots
-
-***
-Note: If you are starting the notebook from this task, you can run cells from all the previous tasks in the kernel by going to the top menu and Kernel > Restart and Run All
-***
 
 ```python
 #Now we will try to make comparison between features 10th to 19th
@@ -788,7 +764,7 @@ sns.violinplot(x='features',
 plt.xticks(rotation=45);
 ```
 
-![png](/assets/images/notebook/output_28_0.png)
+![png](/assets/images/notebook/28_0.png)
 
 Clearly we have a stark difference in features here
 
@@ -814,7 +790,7 @@ sns.violinplot(x='features',
 plt.xticks(rotation=45);
 ```
 
-![png](/assets/images/notebook/output_30_0.png)
+![png](/assets/images/notebook/30_0.png)
 
 As seen, this is all cluttered, so this is **NOT** best way to visualize your data and make interpretations
 
@@ -839,7 +815,7 @@ sns.violinplot(x='features',
 plt.xticks(rotation=45);
 ```
 
-![png](/assets/images/notebook/output_32_0.png)
+![png](/assets/images/notebook/32_0.png)
 
 Features: *compactness worst*, *concativity worst* and *concave points worst*
 
@@ -858,15 +834,11 @@ plt.xticks(rotation=45)
 
     (array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9]), <a list of 10 Text xticklabel objects>)
 
-![png](/assets/images/notebook/output_34_1.png)
+![png](/assets/images/notebook/34_1.png)
 
 This boxplot clearly shows the outliers in each feature in my data.
 
 ### Using Joint Plots for Feature Comparison
-
-***
-Note: If you are starting the notebook from this task, you can run cells from all the previous tasks in the kernel by going to the top menu and Kernel > Restart and Run All
-***
 
 ```python
 sns.jointplot(x.loc[:, 'concavity_worst'],    #we need all rows of this column
@@ -876,18 +848,14 @@ sns.jointplot(x.loc[:, 'concavity_worst'],    #we need all rows of this column
             )
 ```
 
-    <seaborn.axisgrid.JointGrid at 0x7fcd80ded990>
+    <seaborn.axisgrid.JointGrid at 0x7f637b1e0150>
 
-![png](/assets/images/notebook/output_38_1.png)
+![png](/assets/images/notebook/38_1.png)
 
 We can tell that these 2 features are highly correlated.
 The pearson correlation is not given here, but you can calculate that also using more quantitative methods.
 
 ### Observing the Distribution of Values and their Variance with Swarm Plots
-
-***
-Note: If you are starting the notebook from this task, you can run cells from all the previous tasks in the kernel by going to the top menu and Kernel > Restart and Run All
-***
 
 The cool thing in swarm plots is that you clearly see the variance between the features of your target.
 
@@ -899,11 +867,6 @@ sns.set(style='whitegrid',
 data = x
 data_std = (data - data.mean()) / data.std()
 data = pd.concat([y, data_std.iloc[:, 0:10]], axis=1)
-#all rows, but columns 0 to 9 so it doesn't become cluttered
-#axis = 1 because columns
-
-#If we try to get plot now, we'll get an error bec. data is in long format
-# we need to unpivot it to wide format, we can use melt method
 
 data = pd.melt(data, id_vars = 'diagnosis',
               var_name = 'features',
@@ -913,32 +876,27 @@ plt.figure(figsize=(10,10))
 
 sns.swarmplot(x='features',
                y='value',
-               hue='diagnosis',    #hue will color according to diagnosis B or M
+               hue='diagnosis',
                data=data
-              #we removed the split and hue which only work with violin plots
               )
 
 plt.xticks(rotation=45);
 
-#Beacuse 10 features, so alot of names, so we want feature names to be rotated to be easier to read
+
 
 ```
 
-![png](/assets/images/notebook/output_44_0.png)
+![png](/assets/images/notebook/44_0.png)
 
 ```python
 sns.set(style='whitegrid',
-       palette='muted',   #dull the colors abit to not hurt your eyes
+       palette='muted',
        )
 
 data = x
 data_std = (data - data.mean()) / data.std()
 data = pd.concat([y, data_std.iloc[:, 10:20]], axis=1)
-#all rows, but columns 0 to 9 so it doesn't become cluttered
-#axis = 1 because columns
 
-#If we try to get plot now, we'll get an error bec. data is in long format
-# we need to unpivot it to wide format, we can use melt method
 
 data = pd.melt(data, id_vars = 'diagnosis',
               var_name = 'features',
@@ -948,32 +906,27 @@ plt.figure(figsize=(10,10))
 
 sns.swarmplot(x='features',
                y='value',
-               hue='diagnosis',    #hue will color according to diagnosis B or M
+               hue='diagnosis',
                data=data
-              #we removed the split and hue which only work with violin plots
               )
 
 plt.xticks(rotation=45);
 
-#Beacuse 10 features, so alot of names, so we want feature names to be rotated to be easier to read
+
 
 ```
 
-![png](/assets/images/notebook/output_45_0.png)
+![png](/assets/images/notebook/45_0.png)
 
 ```python
 sns.set(style='whitegrid',
-       palette='muted',   #dull the colors abit to not hurt your eyes
+       palette='muted',
        )
 
 data = x
 data_std = (data - data.mean()) / data.std()
 data = pd.concat([y, data_std.iloc[:, 20:30]], axis=1)
-#all rows, but columns 0 to 9 so it doesn't become cluttered
-#axis = 1 because columns
 
-#If we try to get plot now, we'll get an error bec. data is in long format
-# we need to unpivot it to wide format, we can use melt method
 
 data = pd.melt(data, id_vars = 'diagnosis',
               var_name = 'features',
@@ -983,18 +936,18 @@ plt.figure(figsize=(10,10))
 
 sns.swarmplot(x='features',
                y='value',
-               hue='diagnosis',    #hue will color according to diagnosis B or M
+               hue='diagnosis',
                data=data
-              #we removed the split and hue which only work with violin plots
+
               )
 
 plt.xticks(rotation=45);
 
-#Beacuse 10 features, so alot of names, so we want feature names to be rotated to be easier to read
+
 
 ```
 
-![png](/assets/images/notebook/output_46_0.png)
+![png](/assets/images/notebook/46_0.png)
 
 As observed in smoothness worst feature, this is bad feature to use because there is a mixture and not well separated.
 
@@ -1003,10 +956,6 @@ On the contrary, *perimeter worst* or *area worst* have good predictive power.
 Ok, all this time we were seeing the correlations in batches, but now we want to see the correlation between all the features so we will make a correlation matrix with heat map built on top of it.
 
 ### Observing all Pair-wise Correlations
-
-***
-Note: If you are starting the notebook from this task, you can run cells from all the previous tasks in the kernel by going to the top menu and Kernel > Restart and Run All
-***
 
 ```python
 f, ax = plt.subplots(figsize=(18,18))    #30 features
@@ -1020,28 +969,3 @@ sns.heatmap(x.corr(),
 ```
 
 ![png](/assets/images/notebook/output_50_0.png)
-
-{% if page.comments %}
-<div id="disqus_thread"></div>
-<script>
-
-/**
-
-* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: <https://disqus.com/admin/universalcode/#configuration-variables*/>
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://EXAMPLE.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-</noscript>
-{% endif %}
