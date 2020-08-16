@@ -451,7 +451,7 @@ print('Number of Malignant tumors: ', M)
     Number of Benign tumors:  357
     Number of Malignant tumors:  212
 
-![png](/assets/images/notebook/18_1.png)
+![png](/assets/images/notebook/output_18_1.png)
 
 ```python
 x.describe()
@@ -735,7 +735,7 @@ plt.xticks(rotation=45);
 
 ```
 
-![png](/assets/images/notebook/24_0.png)
+![png](/assets/images/notebook/output_24_0.png)
 
 When we check the above diagram, for example:
 
@@ -764,7 +764,7 @@ sns.violinplot(x='features',
 plt.xticks(rotation=45);
 ```
 
-![png](/assets/images/notebook/28_0.png)
+![png](/assets/images/notebook/output_28_0.png)
 
 Clearly we have a stark difference in features here
 
@@ -790,7 +790,7 @@ sns.violinplot(x='features',
 plt.xticks(rotation=45);
 ```
 
-![png](/assets/images/notebook/30_0.png)
+![png](/assets/images/notebook/output_30_0.png)
 
 As seen, this is all cluttered, so this is **NOT** best way to visualize your data and make interpretations
 
@@ -815,7 +815,7 @@ sns.violinplot(x='features',
 plt.xticks(rotation=45);
 ```
 
-![png](/assets/images/notebook/32_0.png)
+![png](/assets/images/notebook/output_32_0.png)
 
 Features: *compactness worst*, *concativity worst* and *concave points worst*
 
@@ -834,7 +834,7 @@ plt.xticks(rotation=45)
 
     (array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9]), <a list of 10 Text xticklabel objects>)
 
-![png](/assets/images/notebook/34_1.png)
+![png](/assets/images/notebook/output_34_1.png)
 
 This boxplot clearly shows the outliers in each feature in my data.
 
@@ -850,7 +850,7 @@ sns.jointplot(x.loc[:, 'concavity_worst'],    #we need all rows of this column
 
     <seaborn.axisgrid.JointGrid at 0x7f637b1e0150>
 
-![png](/assets/images/notebook/38_1.png)
+![png](/assets/images/notebook/output_38_1.png)
 
 We can tell that these 2 features are highly correlated.
 The pearson correlation is not given here, but you can calculate that also using more quantitative methods.
@@ -886,7 +886,7 @@ plt.xticks(rotation=45);
 
 ```
 
-![png](/assets/images/notebook/44_0.png)
+![png](/assets/images/notebook/output_44_0.png)
 
 ```python
 sns.set(style='whitegrid',
@@ -916,7 +916,7 @@ plt.xticks(rotation=45);
 
 ```
 
-![png](/assets/images/notebook/45_0.png)
+![png](/assets/images/notebook/output_45_0.png)
 
 ```python
 sns.set(style='whitegrid',
@@ -947,7 +947,7 @@ plt.xticks(rotation=45);
 
 ```
 
-![png](/assets/images/notebook/46_0.png)
+![png](/assets/images/notebook/output_46_0.png)
 
 As observed in smoothness worst feature, this is bad feature to use because there is a mixture and not well separated.
 
