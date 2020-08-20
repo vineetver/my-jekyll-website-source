@@ -40,6 +40,7 @@ body > div.masthead {
   #main > div.archive > div > div:nth-child(n) > article > h2 > a {
       font-size: 27px;
       font-weight: 600;
+
   }
   
   
@@ -72,6 +73,10 @@ body > div.masthead {
   #main > div.sidebar.sticky {
     margin-top: 2.2rem;
     
+  }
+
+  #main > div.archive > div > div:nth-child(n) > article {
+    padding-top: 1.2em;
   }
 
 
@@ -192,10 +197,10 @@ body > div.masthead {
   }
 
   #main > div.archive > div.list__item > article > h2 {
-    margin-top: 26px;
+    margin-top: 12px;
   }
   #main > div.archive > div > div > article > h2 {
-    margin-top: 26px;
+    margin-top: 12px;
   }
 
   #\32 019 > div > div > article > h2 > a:hover {
