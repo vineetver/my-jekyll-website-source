@@ -6,8 +6,8 @@ comments: true
 author_profile: false
 permalink: /Work/data-analysis-py
 header:
-  teaser: /assets/images/posts/work/python-data-analysis.jpg
-  og_image: /assets/images/posts/work/python-data-analysis.jpg
+  teaser: /assets/images/posts/work/nasa.jpg
+  og_image: /assets/images/posts/work/nasa.jpg
 excerpt: "Data analysis workflow with python and matplotlib"
 related: true
 
@@ -15,13 +15,18 @@ related: true
 
 # Data Analysis using Python and Matplotlib
 
+<img src="https://miro.medium.com/max/1200/1*PKXC0FeXQc5LVmqhJ8HnVg.png">
+
+------------------------------------------
+
 ### About the data
 
 All the datasets are available on [Kaggle](www.kaggle.com) for free.
 
 #### Attribute information
-  * Rainfall
-  * Temperature
+
+* Rainfall
+* Temperature
 
 Missing attribute values: none
 
@@ -523,4 +528,3 @@ plt.show()
 ```
 
 ![png](/assets/images/notebook/nb2/output_33_0.png)
-

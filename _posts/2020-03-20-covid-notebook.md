@@ -13,10 +13,9 @@ related: true
 
 ---
 
-
-
-
 # Covid19 Data Analysis Notebook
+
+<img src="https://www.fda.gov/files/covid19-1600x900.jpg">
 
 ------------------------------------------
 
@@ -263,7 +262,7 @@ covid_data_grouped.head()
     }
 
     <pn>
-    	.dataframe thead th {
+     .dataframe thead th {
     </pn>
         text-align: right;
     }
