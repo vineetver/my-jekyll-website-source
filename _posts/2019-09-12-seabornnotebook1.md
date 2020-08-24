@@ -15,7 +15,7 @@ related: true
 
 
 <h2 align=center>Tumor Diagnosis (Exploratory Data Analysis)</h2>
-<img src="https://www.bcm.edu/sites/default/files/styles/full_width_component_image_standard/public/2020-01/cancer-cells.png?h=7c71ab5e&itok=pt9UGlgh">
+<img src="/assets/images/posts/work/cancer-cells.png">
 
 ------------------------------------------
 
