@@ -203,11 +203,7 @@ body > div.masthead {
     margin-top: 12px;
   }
 
-  #\32 019 > div > div > article > h2 > a:hover {
-    text-decoration: underline;
-    transition-delay: 0s;
-    transition: all 0.6s ease-in;
-  }
+  
  
   #main > div.archive > div > div > article > h2 > a:hover {
     transition-delay: 0s;
@@ -256,7 +252,27 @@ body > div.masthead {
   #main > div.sidebar > div > div.author__content > div > p {
     margin-top: 0;
   }
- /* dark mode please*/
+
+  #\32 020 > div > div:nth-child(n) > article > h2 > a:hover {
+    text-decoration: underline;
+    transition-delay: 0s;
+    transition: all 0.6s ease-in;
+  }
+
+  #\32 018 > div > div:nth-child(n) > article > h2 > a:hover {
+    text-decoration: underline;
+    transition-delay: 0s;
+    transition: all 0.6s ease-in;
+  }
+
+  #\32 019 > div > div:nth-child(n) > article > h2 > a:hover {
+    text-decoration: underline;
+    transition-delay: 0s;
+    transition: all 0.6s ease-in;
+  }
+ 
+ 
+  /* dark mode please*/
 
 
  
