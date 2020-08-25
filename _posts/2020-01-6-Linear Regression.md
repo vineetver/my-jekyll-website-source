@@ -6,8 +6,8 @@ comments: true
 author_profile: false
 permalink: /Work/linear-regression
 header:
-  teaser: /assets/images/posts/work/ml.jpg
-  og_image: /assets/images/posts/work/ml.jpge
+  teaser: /assets/images/posts/work/lr.png
+  og_image: /assets/images/posts/work/lr.png
 excerpt: "This jupyter notebook uses a real dataset to predict the prices of houses in United States."
 related: true
 
