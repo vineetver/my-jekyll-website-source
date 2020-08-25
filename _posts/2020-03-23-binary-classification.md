@@ -1,6 +1,7 @@
 ---
 layout: posts
 share: true
+title:  "Classification with Tensorflow and Keras"
 comments: true
 author_profile: false
 permalink: /Work/classifcation
