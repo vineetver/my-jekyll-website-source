@@ -6,8 +6,8 @@ comments: true
 author_profile: false
 permalink: /Work/seabornnotebook1
 header:
-  teaser: /assets/images/posts/work/seaborn.jpg
-  og_image: /assets/images/posts/work/seaborn.jpge
+  teaser: /assets/images/posts/work/eda.jpg
+  og_image: /assets/images/posts/work/eda.jpge
 excerpt: "Data analysis, visualization using seaborn"
 related: true
 
