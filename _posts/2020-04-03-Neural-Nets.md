@@ -406,7 +406,7 @@ my_model.evaluate(x = test_features, y = test_label, batch_size=batch_size)
     Epoch 15/15
     17/17 [==============================] - 0s 1ms/step - loss: 0.3598 - mean_squared_error: 0.3598
 
-![png](output_15_1.png)
+![png](/assets/images/notebook/nb6/output_15_1.png)
 
      Evaluating the linear regression model against the test set:
     3/3 [==============================] - 0s 1ms/step - loss: 0.3954 - mean_squared_error: 0.3954
@@ -549,7 +549,7 @@ my_model.evaluate(x = test_features, y = test_label, batch_size=batch_size)
     Epoch 20/20
     17/17 [==============================] - 0s 1ms/step - loss: 0.3258 - mean_squared_error: 0.3258
 
-![png](output_21_1.png)
+![png](/assets/images/notebook/nb6/output_21_1.png)
 
      Evaluating the new model against the test set:
     3/3 [==============================] - 0s 1ms/step - loss: 0.3678 - mean_squared_error: 0.3678
@@ -686,7 +686,7 @@ my_model.evaluate(x = test_features, y = test_label, batch_size=batch_size)
     Epoch 30/30
     17/17 [==============================] - 0s 1ms/step - loss: 0.3743 - mean_squared_error: 0.3463
 
-![png](output_24_1.png)
+![png](/assets/images/notebook/nb6/output_24_1.png)
 
      Evaluating the new model against the test set:
     3/3 [==============================] - 0s 1ms/step - loss: 0.4069 - mean_squared_error: 0.3791
@@ -801,7 +801,7 @@ my_model.evaluate(x = test_features, y = test_label, batch_size=batch_size)
     Epoch 20/20
     17/17 [==============================] - 0s 2ms/step - loss: 0.3497 - mean_squared_error: 0.3392
 
-![png](output_27_1.png)
+![png](/assets/images/notebook/nb6/output_27_1.png)
 
      Evaluating the new model against the test set:
     3/3 [==============================] - 0s 2ms/step - loss: 0.3862 - mean_squared_error: 0.3757
