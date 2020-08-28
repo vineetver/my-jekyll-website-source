@@ -270,9 +270,7 @@ body > div.masthead {
     transition-delay: 0s;
     transition: all 0.6s ease-in;
   }
-  #\32 020 > div > div:nth-child(4) {
-    margin-left: 0;
-  }
+ 
   #\32 020 > div > div:nth-child(n) > article > p.archive__item-excerpt {
     font-size: 15px;
   }
@@ -282,6 +280,17 @@ body > div.masthead {
 
   #\32 018 > div > div > article > p.archive__item-excerpt {
     font-size: 15px;
+  }
+
+  #\32 020 > div > div:nth-child(4) > article > p.archive__item-excerpt {
+    font-size: 15px;
+  }
+
+  #\32 020 > div > div:nth-child(1) {
+    margin-bottom: 0;
+  }
+  #\32 020 > div > div:nth-child(4) {
+    margin-left: 0;
   }
   /* dark mode please*/
 

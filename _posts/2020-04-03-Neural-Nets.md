@@ -8,7 +8,7 @@ permalink: /Work/neural-net
 header:
   teaser: /assets/images/posts/work/nets.jpg
   og_image: /assets/images/posts/work/nets.jpge
-excerpt: "Simple Neural Net model using tensorflow and keras"
+excerpt: "Simple Neural Net model using tensorflow and keras."
 related: true
 
 ---

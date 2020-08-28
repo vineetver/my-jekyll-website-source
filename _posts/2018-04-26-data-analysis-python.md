@@ -8,7 +8,7 @@ permalink: /Work/data-analysis-py
 header:
   teaser: /assets/images/posts/work/nasa.jpg
   og_image: /assets/images/posts/work/nasa.jpg
-excerpt: "Data analysis workflow with python and matplotlib"
+excerpt: "Data analysis workflow with python and matplotlib."
 related: true
 
 ---

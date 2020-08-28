@@ -8,7 +8,7 @@ permalink: /Work/classifcation
 header:
   teaser: /assets/images/posts/work/class.png
   og_image: /assets/images/posts/work/class.png
-excerpt: "Binary Classification with class imbalance dataset"
+excerpt: "Binary Classification with class imbalance dataset."
 related: true
 
 ---

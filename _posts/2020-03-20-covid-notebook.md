@@ -8,7 +8,7 @@ permalink: /Work/covid-notebook
 header:
   teaser: /assets/images/posts/work/covidpost.jpg
   og_image: /assets/images/posts/work/covidpost.jpge
-excerpt: "Data analysis, visualization of covid using python"
+excerpt: "Data analysis, visualization of covid using python."
 related: true
 
 ---
