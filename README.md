@@ -1,6 +1,5 @@
 ## Features
 
-- Bundled as a "theme gem" for easier upgrading.
 - Compatible with GitHub Pages.
 - Nine different skins.
 - Several responsive layout options (single, archive index, search, splash, and paginated home page).
